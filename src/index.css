@@ -8,7 +8,6 @@
 }
 
 .left {
-  /* position: relative; */
   width: 33%;
   min-width: 480px;
   height: 100%;
@@ -284,6 +283,8 @@ button {
   .left{
     position: relative;
     height: 300px;
+    background: url(./images/bg-main-mobile.png);
+    background-size: cover;
   }
 
   .right {
