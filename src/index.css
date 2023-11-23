@@ -11,7 +11,7 @@
   width: 33%;
   min-width: 480px;
   height: 100%;
-  background: url(./images/bg-main-desktop.png);
+  background: url(../public/images/bg-main-desktop.png);
   background-size: cover;
   background-color: #21092F;
 }
@@ -37,7 +37,7 @@
 .card_front {
   top: 0;
   left: 0;
-  background-image: url(./images/bg-card-front.png);
+  background-image: url(../public/images/bg-card-front.png);
   padding: 28px 43px 26.5px 32px;
 }
 
@@ -65,7 +65,7 @@
 .card_back {
   bottom: 0;
   right: 0;
-  background-image: url(./images/bg-card-back.png);
+  background-image: url(../public/images/bg-card-back.png);
   display: flex;
 }
 
@@ -283,7 +283,7 @@ button {
   .left{
     position: relative;
     height: 300px;
-    background: url(./images/bg-main-mobile.png);
+    background: url(../public/images/bg-main-mobile.png);
     background-size: cover;
   }
 
