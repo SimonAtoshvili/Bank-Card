@@ -222,7 +222,7 @@ export default Right;
 function Confirmed() {
     return (
         <div className='confirmed'>
-            <img src='../public/images/icon-complete.svg' alt="complete" />
+            <img src='./images/icon-complete.svg' alt="complete" />
             <h1>Thank You!</h1>
             <p>We've added your card details</p>
         </div>
