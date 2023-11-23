@@ -16,7 +16,6 @@ const Left: React.FC<LeftProps> = ({ holderName, cardNumber, cvc, month, year, a
             updatedCard += cardNumber[i]
         }
     }
-    // innerWidth * 0.1146
     return (
         <div className='left'>
             <div className='cards'>
