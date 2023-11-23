@@ -1,5 +1,3 @@
-import cardLogo from './images/card-logo.svg'
-
 interface LeftProps {
     holderName: string;
     cardNumber: string;
@@ -23,7 +21,7 @@ const Left: React.FC<LeftProps> = ({ holderName, cardNumber, cvc, month, year, a
         <div className='left'>
             <div className='cards'>
                 <div className='card_front'>
-                    <img src={cardLogo} />
+                    <img src='../src/images/card-logo.svg' />
                     <p className='card_number'>{updatedCard ? updatedCard : '0000 0000 0000 0000'}</p>
                     <div className='front_bottom'>
                         <h1 className='card_holder'>{allValid ? holderName : 'JANE APPLESEED'}</h1>
